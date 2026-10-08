@@ -6,7 +6,7 @@ export function Reveal({ children, className = '' }: { children: ReactNode; clas
     const element = ref.current;
     if (!element) return;
     const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) { element.classList.add('is-visible'); observer.unobserve(element); }
+      if (entry?.isIntersecting) { element.classList.add('is-visible'); observer.unobserve(element); }
     }, { threshold: .12 });
     observer.observe(element);
     return () => observer.disconnect();
