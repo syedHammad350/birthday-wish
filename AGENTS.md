@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the birthday experience as one scrolling story at the index route, with small reusable interactive sections; its chapters form one continuous narrative.
+- Keep replaceable birthday messages, letter, and photo/music configuration in a browser-safe content module so personalization does not require changing interactions.
+- Use CSS-driven decorative animation and user-initiated browser audio only; this keeps the experience lightweight and compatible with server rendering.
